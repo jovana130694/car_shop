@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,sass
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,sass
+# Created by https://www.toptal.com/developers/gitignore/api/sass,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=sass,visualstudiocode
 
 ### Sass ###
 .sass-cache/
@@ -32,4 +32,4 @@
 # Ignore code-workspaces
 *.code-workspace
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,sass
+# End of https://www.toptal.com/developers/gitignore/api/sass,visualstudiocode
