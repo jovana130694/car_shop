@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  background-size: cover;
+  background-image: url("background.jpg");
+  padding: 1rem;
+  height: 90vh;
+}
+header nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  background-color: white;
+  width: 70%;
+}
+header nav a {
+  text-decoration: none;
+}
+header nav .logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+header nav .logo span {
+  color: red;
+}
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+  padding-top: 1.5rem;
+}
+header nav ul li {
+  margin-right: 1em;
+  list-style: none;
+  font-size: 1.2rem;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+header div {
+  text-align: center;
+  margin-top: 20rem;
+}
+header div h1 {
+  font-weight: 100;
+  color: white;
+  font-size: 3rem;
+  border-bottom: solid 1px red;
+  display: inline-block;
+  width: 35rem;
+  font-family: "Open Sans", sans-serif;
+}
+header div p {
+  color: white;
+  padding-top: 1px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+}
+
+section {
+  background-color: rgb(224, 221, 221);
+  width: 100%;
+}
+section h2 {
+  text-align: center;
+  padding-top: 5rem;
+}
+section .cars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 3rem;
+}
+section .cars div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section img {
+  height: 100px;
+  width: 150px;
+}
+section p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
+section button {
+  background-color: red;
+  color: white;
+  padding: 0.5rem 2rem;
+  border: none;
+  margin-top: 1rem;
+}
+
+.table {
+  background-color: white;
+}
+.table h2 {
+  text-align: center;
+}
+.table table {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 3rem;
+}
+.table table th, .table table td {
+  padding: 1rem;
+}
+.table table td {
+  border-bottom: solid 1px gray;
+}
+.table table th {
+  background-color: red;
+  color: white;
+}
+.table table thead th:first-child {
+  background-color: rgb(100, 69, 69);
+}
+.table table tbody td:first-child {
+  background-color: gray;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
